@@ -24,12 +24,30 @@
     <!-- Favicon -->
     <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚙</text></svg>">
 
-    <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;700&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
-
     <style>
+        /* Local Fonts */
+        @font-face {
+            font-family: 'Syne';
+            font-style: normal;
+            font-weight: 400 800;
+            font-display: swap;
+            src: url(fonts/syne.woff2) format('woff2');
+        }
+        @font-face {
+            font-family: 'JetBrains Mono';
+            font-style: normal;
+            font-weight: 400 700;
+            font-display: swap;
+            src: url(fonts/jetbrains-mono.woff2) format('woff2');
+        }
+        @font-face {
+            font-family: 'Outfit';
+            font-style: normal;
+            font-weight: 300 600;
+            font-display: swap;
+            src: url(fonts/outfit.woff2) format('woff2');
+        }
+
         /* ============================================
            CSS CUSTOM PROPERTIES
            ============================================ */
@@ -1741,7 +1759,8 @@
                 &copy; 2025 Thomas Zachmann. Alle Rechte vorbehalten.
             </div>
             <div class="footer__links">
-                <a href="https://zachmann.work" class="footer__link" target="_blank" rel="noopener noreferrer">zachmann.work</a>
+                <a href="impressum.html" class="footer__link">Impressum</a>
+                <a href="datenschutz.html" class="footer__link">Datenschutz</a>
                 <a href="https://github.com/thomaszachmann" class="footer__link" target="_blank" rel="noopener noreferrer">GitHub</a>
                 <a href="mailto:thomas@zachmann.work" class="footer__link">E-Mail</a>
             </div>
